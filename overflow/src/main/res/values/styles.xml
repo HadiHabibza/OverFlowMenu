@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="overflowMenuTextStyle" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/overflowmenu_text_size</item>
+        <item name="android:textColor">@color/overflowmenu_text_color</item>
+    </style>
+
+</resources>
