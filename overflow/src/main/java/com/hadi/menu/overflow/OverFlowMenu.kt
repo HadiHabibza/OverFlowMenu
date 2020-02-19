@@ -107,19 +107,20 @@ open class OverFlowMenu private constructor(context: Context, menuRes: Int) {
 
             val showingInTop = anchor.resources.displayMetrics.run {
                 setWidth((contentViewWidth + 48 * density).toInt())
-                val padVertical = (8 * density).toInt()
-                menuListView.setPadding(0, padVertical, 0, padVertical)
-                val height = min(visibleCount * (contentViewHeight / itemList.size), (heightPixels * 0.6).toInt()) + (padVertical * 2)
+                val height = min(visibleCount * (contentViewHeight / itemList.size), (heightPixels * 0.6).toInt())
                 setHeight(height)
+                menuListView.layoutParams = menuListView.layoutParams.apply {
+                    this.height = height
+                }
 
                 val location = IntArray(2)
                 anchor.getLocationOnScreen(location)
                 (heightPixels - location[1] - anchor.height) < height
             }
 
-            val yOff = (anchor.height) * if (showingInTop) 1 else -1
+            val yOff = (anchor.height) * if (showingInTop) 0.0 else -0.55
 
-            showAsDropDown(anchor, 0, yOff)
+            showAsDropDown(anchor, 0, yOff.toInt())
         }
     }
 

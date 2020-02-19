@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/test1"
+        android:title="Test 1"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/test2"
+        app:ico_icon="@string/gmf_content_copy"
+        app:ico_color="@android:color/black"
+        android:title="Test 2"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/test3"
+        app:ico_icon="@string/gmf_mode_edit"
+        app:ico_color="@android:color/black"
+        android:title="Test 3"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/test4"
+        app:ico_icon="@string/gmf_delete"
+        app:ico_color="@android:color/black"
+        android:title="Test 4"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/test5"
+        app:ico_icon="@string/gmf_report_problem"
+        app:ico_color="@android:color/black"
+        android:title="Test 5"
+        android:visible="true"
+        app:showAsAction="never" />
+
+<!--    <item-->
+<!--        android:id="@+id/test6"-->
+<!--        android:title="Test 1"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/test7"-->
+<!--        app:ico_icon="@string/gmf_content_copy"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 2"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test8"-->
+<!--        app:ico_icon="@string/gmf_mode_edit"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 3"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test9"-->
+<!--        app:ico_icon="@string/gmf_delete"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 4"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test10"-->
+<!--        app:ico_icon="@string/gmf_report_problem"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 5"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test11"-->
+<!--        android:title="Test 1"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/test12"-->
+<!--        app:ico_icon="@string/gmf_content_copy"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 2"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test13"-->
+<!--        app:ico_icon="@string/gmf_mode_edit"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 3"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test14"-->
+<!--        app:ico_icon="@string/gmf_delete"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 4"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test15"-->
+<!--        app:ico_icon="@string/gmf_report_problem"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 5"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test16"-->
+<!--        android:title="Test 1"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/test17"-->
+<!--        app:ico_icon="@string/gmf_content_copy"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 2"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test18"-->
+<!--        app:ico_icon="@string/gmf_mode_edit"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 3"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test19"-->
+<!--        app:ico_icon="@string/gmf_delete"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 4"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test20"-->
+<!--        app:ico_icon="@string/gmf_report_problem"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 5"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test21"-->
+<!--        android:title="Test 1"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/test22"-->
+<!--        app:ico_icon="@string/gmf_content_copy"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 2"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test23"-->
+<!--        app:ico_icon="@string/gmf_mode_edit"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 3"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test24"-->
+<!--        app:ico_icon="@string/gmf_delete"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 4"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test25"-->
+<!--        app:ico_icon="@string/gmf_report_problem"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 5"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test26"-->
+<!--        android:title="Test 1"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/test27"-->
+<!--        app:ico_icon="@string/gmf_content_copy"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 2"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test28"-->
+<!--        app:ico_icon="@string/gmf_mode_edit"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 3"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test29"-->
+<!--        app:ico_icon="@string/gmf_delete"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 4"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/test30"-->
+<!--        app:ico_icon="@string/gmf_report_problem"-->
+<!--        app:ico_color="@android:color/black"-->
+<!--        android:title="Test 5"-->
+<!--        android:visible="true"-->
+<!--        app:showAsAction="never" />-->
+
+</menu>
