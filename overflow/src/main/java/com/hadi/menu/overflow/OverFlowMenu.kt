@@ -22,6 +22,7 @@ open class OverFlowMenu private constructor(context: Context, menuRes: Int) {
     private var powerMenu: CustomPowerMenu<IconPowerMenuItem, IconMenuAdapter>? = null
     private var onItemClickListener: OnItemClickListener? = null
     private var onDismissListener: OnDismissListener? = null
+    private var anchorView: View? = null
 
     init {
         powerMenu = CustomPowerMenu.Builder(context, IconMenuAdapter())
@@ -86,6 +87,9 @@ open class OverFlowMenu private constructor(context: Context, menuRes: Int) {
 
     fun show(anchor: View) {
         powerMenu?.apply {
+            anchorView = anchor
+
+            // without call requestFocus the OnKeyListener doesn't trigger
             anchor.isFocusableInTouchMode = true
             anchor.requestFocus()
             anchor.setOnKeyListener { _, keyCode, event ->
@@ -129,6 +133,9 @@ open class OverFlowMenu private constructor(context: Context, menuRes: Int) {
         onDismissListener?.onDismiss()
         onDismissListener = null
         powerMenu = null
+        anchorView?.isFocusableInTouchMode = false
+        anchorView?.clearFocus()
+        anchorView = null
     }
 
     fun setVisibilityById(isVisible: Boolean, vararg ids: Int) {
